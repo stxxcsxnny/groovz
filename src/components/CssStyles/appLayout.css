@@ -1,0 +1,105 @@
+.chatListContainer{
+
+    
+        
+
+    
+
+
+height : 70% ;
+width: 20%;
+border-radius: 20px;
+margin-bottom: 10%;
+margin-right: 10px;
+
+display: block;
+
+ box-shadow:0 4px 8px rgba(0, 0, 0, 0.2); 
+  backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0,0,0,0.2);
+    background: url('');
+
+}
+
+    
+
+.mainContainer{
+    
+    height: calc(100vh - 4rem);
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                
+              background: #72e7c0;
+
+}
+.chatContainer{
+    height: 70%;
+    width: 60%;
+    border-radius: 20px;
+    
+
+    
+ box-shadow:0 4px 8px rgba(0, 0, 0, 0.2); 
+ backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+   border: 1px solid rgba(0,0,0,0.2);
+
+    
+
+    
+    
+
+}
+.profileContainer{
+    background-color: blue;
+    display: none;
+        
+ box-shadow:0 4px 8px rgba(0, 0, 0, 0.2); 
+ backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+   border: 1px solid rgba(0,0,0,0.2);
+
+    height: 70%;
+    width: 20%;
+    border-radius: 20px;
+
+    
+}
+
+@media screen and (max-width: 600px) 
+{ .chatListContainer {
+
+    display: none;
+
+ } 
+ .profileContainer{
+     display: none;
+    
+ }
+ .chatContainer{
+     width: 100%;
+     height: 100%;
+     margin-top: 0px;
+     border-radius: 0px;
+ }
+
+}
+
+@media screen and (max-width: 900px){
+
+
+    .chatListContainer{
+        width: 30%;
+        margin-top: 60px;
+        margin-right: 10px;
+        height: inherit;
+
+    }
+    .chatContainer{
+        
+        height: inherit;
+    }
+}
