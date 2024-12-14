@@ -54,7 +54,9 @@ const Header = () => {
 
 
                     <Toolbar>
-                        <Typography fontWeight={"900"} fontFamily={"moo lah lah"} variant='h4'>Groovz</Typography>
+                        <Typography fontWeight={"900"} fontFamily={"moo lah lah"} variant='h4' sx={{
+                            display: { xs: 'none', sm: 'block' }
+                        }}>Groovz</Typography>
                        
                         <Box sx={{
                             display: { xs: 'block', sm: 'none' }
